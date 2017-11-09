@@ -105,6 +105,34 @@
             </objects>
             <point key="canvasLocation" x="479" y="-207"/>
         </scene>
+        <!--BoardingPass-->
+        <scene sceneID="9sS-uc-jlf">
+            <objects>
+                <controller identifier="BoardingPass" id="qFV-FB-Khk" customClass="BoardingPassInterfaceController" customModule="Watch_Extension">
+                    <items>
+                        <group height="30" alignment="center" spacing="4" id="ROi-vu-MJy">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="MAN" id="xpI-J2-gh7">
+                                    <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                </label>
+                                <imageView alignment="center" verticalAlignment="center" image="Plane" id="KFq-iH-mrZ"/>
+                                <label alignment="right" verticalAlignment="center" text="SFO" id="NJ3-cL-exo">
+                                    <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                </label>
+                            </items>
+                        </group>
+                        <imageView width="66" height="66" alignment="center" verticalAlignment="center" image="loading@2x" animationDuration="1" id="olC-9K-S6n"/>
+                    </items>
+                    <edgeInsets key="margins" left="1" right="1" top="6" bottom="0.0"/>
+                    <connections>
+                        <outlet property="boardingPassImage" destination="olC-9K-S6n" id="RJY-XO-vHp"/>
+                        <outlet property="destinationLabel" destination="NJ3-cL-exo" id="tcm-FE-Lrs"/>
+                        <outlet property="originLabel" destination="xpI-J2-gh7" id="Pdq-1a-eQY"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="745" y="-207"/>
+        </scene>
         <!-- Air Aber-->
         <scene sceneID="zuE-VC-d80">
             <objects>

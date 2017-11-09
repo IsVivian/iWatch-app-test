@@ -28,6 +28,7 @@
 		81B3346A1FB2FE8900B2AA83 /* ScheduleInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B334691FB2FE8900B2AA83 /* ScheduleInterfaceController.swift */; };
 		81B3346C1FB3027700B2AA83 /* FlightRowContorller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B3346B1FB3027700B2AA83 /* FlightRowContorller.swift */; };
 		81B3346E1FB3095E00B2AA83 /* CheckInInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B3346D1FB3095E00B2AA83 /* CheckInInterfaceController.swift */; };
+		81B334701FB3FF3200B2AA83 /* BoardingPassInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B3346F1FB3FF3200B2AA83 /* BoardingPassInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,7 @@
 		81B334691FB2FE8900B2AA83 /* ScheduleInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleInterfaceController.swift; sourceTree = "<group>"; };
 		81B3346B1FB3027700B2AA83 /* FlightRowContorller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRowContorller.swift; sourceTree = "<group>"; };
 		81B3346D1FB3095E00B2AA83 /* CheckInInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInInterfaceController.swift; sourceTree = "<group>"; };
+		81B3346F1FB3FF3200B2AA83 /* BoardingPassInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingPassInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 				81B334691FB2FE8900B2AA83 /* ScheduleInterfaceController.swift */,
 				81B3346B1FB3027700B2AA83 /* FlightRowContorller.swift */,
 				81B3346D1FB3095E00B2AA83 /* CheckInInterfaceController.swift */,
+				81B3346F1FB3FF3200B2AA83 /* BoardingPassInterfaceController.swift */,
 				8139D9861FB2DD6D0035A309 /* Assets.xcassets */,
 				8139D9881FB2DD6D0035A309 /* Info.plist */,
 			);
@@ -355,6 +358,7 @@
 				8139D9851FB2DD6D0035A309 /* ExtensionDelegate.swift in Sources */,
 				81B3346A1FB2FE8900B2AA83 /* ScheduleInterfaceController.swift in Sources */,
 				8139D9961FB2E50E0035A309 /* FlightInterfaceController.swift in Sources */,
+				81B334701FB3FF3200B2AA83 /* BoardingPassInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

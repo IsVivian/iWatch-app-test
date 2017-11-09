@@ -41,7 +41,8 @@ class ScheduleInterfaceController: WKInterfaceController {
         let flight = flights[rowIndex]
 //        presentController(withName: "Flight", context: flight)
         selectedIndex = rowIndex
-        let controllers = ["Flight", "CheckIn"]
+//        let controllers = ["Flight", "CheckIn"]
+        let controllers = flight.checkedIn ? ["Flight", "BoardingPass"] : ["Flight", "CheckIn"]
         presentController(withNames: controllers, contexts: [flight, flight])
         
     }
